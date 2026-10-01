@@ -180,7 +180,7 @@ Insight Generation
 Project Outcome
 
 The final dashboard provides a centralized view of emergency room activity and converts raw healthcare records into an easy-to-understand analytical report.
-
+https://github.com/mdh05804-bit/Hospital-dashboard-/blob/e14d1b7343dda169259707a372d4b01d15653f90/Screenshot_30-9-2026_231327_.jpeg
 The project demonstrates how Power BI can be used not only to create charts, but also to structure data, define meaningful KPIs, identify operational patterns, and communicate insights to business stakeholders.
 
 Author
