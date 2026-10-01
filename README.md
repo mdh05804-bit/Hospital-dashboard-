@@ -177,7 +177,7 @@ Business Insights
 
 ## Dashboard Preview
 
-![Hospital Emergency Room Dashboard](dashboard.png)
+![image alt](https://github.com/mdh05804-bit/Hospital-dashboard-/blob/8ce6f7064d3a0072518dd683b1750951b58313ac/Screenshot_30-9-2026_231327_.jpeg)
 
 > Place the dashboard screenshot in the repository root and name it `dashboard.png` to display the preview above.
 
