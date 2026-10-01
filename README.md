@@ -1,194 +1,297 @@
-# Hospital-dashboard-
-Hospital Emergency Room Dashboard
+# Hospital Emergency Room Dashboard
 
-Project Overview
+An interactive **Power BI dashboard** designed to analyze and monitor hospital emergency room operations. The project transforms raw emergency room data into a structured business intelligence report that helps users understand patient volume, admissions, waiting time, satisfaction, demographics, daily activity, and department referrals.
 
-The Hospital Emergency Room Dashboard is an interactive Power BI solution developed to provide a clear and practical view of emergency room operations.
+The dashboard presents the **July 2024** performance view and allows users to interact with the report using multiple filters and slicers.
 
-The dashboard focuses on patient volume, admissions, waiting time, satisfaction, patient demographics, daily activity, and department referrals. The current report presents the monthly performance view for July 2024.
+---
 
-The purpose of this project is to turn operational healthcare data into meaningful information that can be understood quickly by management and other stakeholders. Instead of reviewing raw records, users can use the dashboard to identify trends, compare patient segments, and monitor important emergency room indicators from a single report.
+## Project Overview
 
-Business Objectives
+Emergency departments generate large amounts of operational data, including patient information, waiting times, admission status, referrals, and satisfaction scores. Reviewing this information directly from raw data can make it difficult to identify important patterns.
 
-The dashboard was designed to help answer key operational questions:
+This project uses **Microsoft Power BI** to convert emergency room data into an interactive analytical dashboard.
 
-How many patients visited the emergency room?
+The dashboard provides management and stakeholders with a centralized view of key emergency room metrics and enables them to explore different patient segments through interactive filtering.
 
-What was the average waiting time?
+### Key areas covered
 
-What was the average patient satisfaction score?
+- Patient volume
+- Average waiting time
+- Patient satisfaction
+- Admission analysis
+- Patient demographics
+- Gender distribution
+- Daily patient activity
+- Department referrals
+- Interactive patient filtering
 
-How many patients were admitted?
+---
 
-Which age groups contributed the most patient visits?
+## Business Objectives
 
-How were patients distributed by gender?
+The dashboard was developed to answer important operational questions such as:
 
-What proportion of patients were admitted?
+- How many patients visited the emergency room?
+- What was the average patient waiting time?
+- What was the average patient satisfaction score?
+- How many patients were admitted?
+- Which age groups contributed the most patient visits?
+- How were patients distributed by gender?
+- What proportion of patients were admitted?
+- Which departments received the highest number of referrals?
+- How did patient volume change across different days?
+- How do the results change when different patient filters are applied?
 
-Which departments received the highest number of referrals?
+---
 
-How did patient volume change across different days?
+## Key Performance Indicators
 
-How do the results change when different patient filters are applied?
+| KPI | July 2024 |
+|---|---:|
+| No. of Patients | 9,210 |
+| Average Wait Time | 35.26 |
+| Average Satisfaction | 4.99 |
+| Admitted Patients | 4,611 |
 
-Key Performance Indicators
+These KPIs provide a quick overview of emergency room performance for the selected period.
 
-KPI
+---
 
-July 2024
+## Dashboard Analysis
 
-No. of Patients
+### 1. Patient Demographics
 
-9,210
+The dashboard analyzes patients based on **age group and gender**.
 
-Average Wait Time
+This analysis helps identify the demographic composition of emergency room visitors and provides a better understanding of which patient segments contribute to overall patient demand.
 
-35.26
+---
 
-Average Satisfaction
+### 2. Admission Analysis
 
-4.99
+The admission analysis compares patients based on their **admission status**.
 
-Admitted Patients
+It provides a quick overview of the relationship between total emergency room visits and patients who were admitted.
 
-4,611
+This can help users understand admission patterns and compare admitted versus non-admitted patients.
 
-Dashboard Analysis
+---
 
-Patient Demographics
+### 3. Daily Patient Trend
 
-The dashboard provides a breakdown of patients by age group and gender. This helps identify the demographic composition of emergency room visitors and provides a better understanding of which patient segments contribute to overall demand.
+The daily patient trend displays patient activity across the selected period.
 
-Admission Analysis
+This helps identify variations in daily emergency room demand and provides useful information for operational planning and resource management.
 
-The admission flag visual compares admitted and non-admitted patients. This provides a quick view of the relationship between emergency room visits and patient admissions.
+---
 
-Daily Patient Trend
+### 4. Department Referral Analysis
 
-The daily patient trend provides a view of patient activity across the selected period. This can help identify variations in demand and support operational planning.
+The dashboard analyzes patient referrals across different hospital departments.
 
-Department Referral Analysis
+The report includes departments such as:
 
-The department referral analysis shows where patients are being referred after their emergency room visit. It includes departments such as General Practice, Orthopedics, Physiotherapy, Cardiology, Neurology, Gastroenterology, and Renal.
+- General Practice
+- Orthopedics
+- Physiotherapy
+- Cardiology
+- Neurology
+- Gastroenterology
+- Renal
 
-Interactive Filtering
+This analysis helps identify which departments receive the highest number of referrals from the emergency room.
 
-The report includes interactive filters for:
+---
 
-Patient Race
+### 5. Interactive Filtering
 
-Department Referral
+The dashboard includes interactive slicers that allow users to filter the analysis based on specific patient attributes.
 
-Patient Admission Flag
+Available filters include:
 
-Patient Gender
+- Patient Race
+- Department Referral
+- Patient Admission Flag
+- Patient Gender
 
-These filters allow users to move from a high-level overview to a more focused analysis of specific patient groups.
+Users can combine multiple filters to perform more focused analysis.
 
-Data Analytics Workflow
+---
 
-The project follows a structured business intelligence workflow:
+## Data Analytics Workflow
 
-Import the emergency room dataset into Power BI.
+The project follows a structured Business Intelligence workflow:
 
-Review the structure and quality of the source data.
-
-Clean and transform the required fields using Power Query.
-
-Prepare the data for analysis and visualization.
-
-Create calculated measures using DAX.
-
-Develop KPI cards and analytical visuals.
-
-Add interactive slicers for user-driven analysis.
-
-Apply a consistent dashboard layout focused on readability.
-
-Validate the dashboard outputs and present the final report.
-
-Tools and Technologies
-
-Microsoft Power BI
-
-Power Query
-
-DAX
-
-Data Cleaning and Transformation
-
+```text
+Raw Dataset
+     ↓
+Data Import
+     ↓
+Data Understanding
+     ↓
+Data Cleaning
+     ↓
+Data Transformation
+     ↓
+Data Modeling
+     ↓
+DAX Measures
+     ↓
+KPI Development
+     ↓
 Data Visualization
+     ↓
+Interactive Dashboard
+     ↓
+Business Insights
+```
 
-Business Intelligence
+### Workflow Steps
 
-Healthcare Data Analytics
+1. Imported the emergency room dataset into Power BI.
+2. Reviewed the structure and quality of the source data.
+3. Cleaned and transformed the required fields using Power Query.
+4. Prepared the dataset for analysis and visualization.
+5. Created calculated measures using DAX.
+6. Developed KPI cards for important operational metrics.
+7. Created analytical visuals for demographics, admissions, trends, and referrals.
+8. Added interactive slicers for user-driven analysis.
+9. Designed a consistent dashboard layout focused on readability.
+10. Validated the dashboard outputs and finalized the report.
 
-Dashboard Preview
+---
 
+## Tools & Technologies
 
+| Tool / Technology | Purpose |
+|---|---|
+| **Microsoft Power BI** | Dashboard development and visualization |
+| **Power Query** | Data cleaning and transformation |
+| **DAX** | Calculated measures and KPIs |
+| **Data Visualization** | Presenting analytical findings |
+| **Business Intelligence** | Operational reporting and analysis |
+| **Healthcare Data Analytics** | Emergency room performance analysis |
 
-Place the dashboard screenshot in the repository root with the filename dashboard.png to display the preview above.
+---
 
-Repository Structure
+## Dashboard Preview
 
+![Hospital Emergency Room Dashboard](dashboard.png)
+
+> Place the dashboard screenshot in the repository root and name it `dashboard.png` to display the preview above.
+
+---
+
+## Repository Structure
+
+```text
 Hospital-Emergency-Room-Dashboard/
 │
 ├── Hospital Emergency Room Dashboard.pbix
 ├── dashboard.png
 ├── README.md
+│
 └── dataset/
     └── hospital_emergency_room.csv
+```
 
-How to Use the Project
+---
 
-Download or clone the repository.
+## How to Use the Project
 
-Open the .pbix file using Power BI Desktop.
+### 1. Clone the Repository
 
-Update the dataset path if required.
+Clone or download this repository to your local machine.
 
-Refresh the data.
+### 2. Open the Power BI File
 
-Use the available slicers to explore different patient segments.
+Open:
 
-Review the KPIs and visuals to understand emergency room activity.
+```text
+Hospital Emergency Room Dashboard.pbix
+```
 
-Key Skills Demonstrated
+using **Power BI Desktop**.
 
-Data Cleaning
+### 3. Update the Dataset Path
 
-Data Transformation
+If Power BI cannot locate the dataset, update the source path from:
 
-DAX Measures
+**Transform Data → Data Source Settings**
 
-KPI Development
+and select the correct CSV file.
 
-Data Visualization
+### 4. Refresh the Data
 
-Interactive Dashboard Design
+After connecting the dataset, refresh the report to load the latest available data.
 
-Business Intelligence Reporting
+### 5. Explore the Dashboard
 
-Healthcare Data Analysis
+Use the available slicers and visuals to analyze:
 
-Data Storytelling
+- Patient demographics
+- Admission status
+- Patient volume
+- Waiting time
+- Satisfaction
+- Department referrals
+- Daily patient activity
 
-Insight Generation
+---
 
-Project Outcome
+## Key Skills Demonstrated
 
-The final dashboard provides a centralized view of emergency room activity and converts raw healthcare records into an easy-to-understand analytical report.
-https://github.com/mdh05804-bit/Hospital-dashboard-/blob/e14d1b7343dda169259707a372d4b01d15653f90/Screenshot_30-9-2026_231327_.jpeg
-The project demonstrates how Power BI can be used not only to create charts, but also to structure data, define meaningful KPIs, identify operational patterns, and communicate insights to business stakeholders.
+This project demonstrates practical experience in:
 
-Author
+- Data Cleaning
+- Data Transformation
+- Power Query
+- DAX Measures
+- KPI Development
+- Data Visualization
+- Interactive Dashboard Design
+- Business Intelligence Reporting
+- Healthcare Data Analysis
+- Data Storytelling
+- Insight Generation
+- Dashboard Design
 
-Md Hasnain
-B.Tech, Mewar University
-Focus: Data Analytics
+---
 
-Note
+## Project Outcome
 
-This project is intended for portfolio and learning purposes. The dashboard demonstrates a practical approach to healthcare data analysis and business intelligence reporting.
+The final dashboard provides a centralized analytical view of emergency room activity.
+
+Instead of relying on raw healthcare records, users can quickly monitor important operational metrics, compare patient segments, analyze admission patterns, identify referral trends, and understand changes in daily patient volume.
+
+The project demonstrates how **Power BI can be used to transform raw operational data into an interactive business intelligence solution** that supports data-driven analysis and stakeholder communication.
+
+---
+
+## Portfolio Value
+
+This project demonstrates the complete workflow of a practical **Data Analyst / Business Intelligence project**, including:
+
+```text
+Data → Cleaning → Transformation → Analysis → Visualization → Insights
+```
+
+It highlights the ability to work with real-world-style healthcare data and convert it into a structured dashboard suitable for operational reporting and portfolio presentation.
+
+---
+
+## Author
+
+**Md Hasnain**
+
+B.Tech — Mewar University  
+Focus: **Data Analytics**
+
+---
+
+## Disclaimer
+
+This project is created for **portfolio and learning purposes**. The dashboard demonstrates a practical approach to healthcare data analysis and business intelligence reporting.
+
+The data and analysis should not be interpreted as medical advice or as an official representation of hospital operations.
